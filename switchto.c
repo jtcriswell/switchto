@@ -36,6 +36,7 @@ main (int argc, char ** argv) {
 	/* Execute a shell */
 	if ((execl ("/bin/sh", "/bin/sh", 0)) == -1) {
 		perror ("Could not execute shell");
+		return 1;
 	}
 
 	/* Exit the program */
