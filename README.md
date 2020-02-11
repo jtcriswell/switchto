@@ -1,2 +1,2 @@
 # switchto
-Program to switch to another UID
+The switchto program is a Linux program design to change the effective, real, and saved user IDS to an ID value specified on the command line.
